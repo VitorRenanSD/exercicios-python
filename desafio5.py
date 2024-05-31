@@ -1,4 +1,4 @@
-a= int(input("Digite um numero"))
-b= a-1
-c= a+1
-print("analisando o numero: {} seu antecessor é: {} e seu sucessor é: {}".format( a, b, c))
+num = int(input("Digite um numero: "))
+
+print(f"Analisando o número: {num}\nSeu antecessor é: {num-1}\nSeu sucessor é: {num+1}")
+#Pode ser printado o número antecessor e sucessor sem precisar criar outras variáveis, apenas alterando a atual
