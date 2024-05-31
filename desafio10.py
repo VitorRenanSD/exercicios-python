@@ -1,5 +1,8 @@
 q=float(input("Digite quantos reais voce tem na sua carteira: "))
+cot_dollar = float(input("Cotação atual do dolar: "))
+#Com a cotação atual do dolar é possível saber seu preço sem precisar depender de uma variável fixa
 
-do= q/3.27
+result = q / cot_dollar
 
-print("Voce tem {}R$ então voce pode gastar {}dolares".format(q,do))
+print("Voce tem ${result}."))
+#Espero que goste <3
