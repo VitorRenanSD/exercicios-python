@@ -1,12 +1,5 @@
 n= int(input("Digite um nuemro"))
 
-db= n*2
-
-tr= n*3
-
-raiz= n**(1/2)
-
-print("O dobro de {} vale {}".format(n,db))
-print("O dobro de {} vale {}".format(n,db))
-print("O triplo de {} vale {}".format(n,tr))
-print("A raiz de {} é igual a {:.2}".format(n,raiz))
+print(f'O dobro de {n} vale {n * 2}')
+print(f'O triplo de {n} vale {n * 3}')
+print(f'A raiz de {n} é igual a {(num ** (1/2)):.2f}')
